@@ -1,0 +1,27 @@
+/* spaghrecords.fr css*/
+#page {padding-top: 10px;}
+
+img {max-width: 100%;}
+#masthead {margin-bottom: 10px;}
+#masthead hgroup {position: absolute; left: -5000px;}
+
+#footer {padding-bottom: 10px;}
+
+.release .page-header {text-transform: lowercase; font-size: 1.4em;}
+
+.data {font-size: 1.2em; text-transform: lowercase; padding: 10px 0;}
+.data dd {margin-bottom: 20px;}
+
+.breadcrumb, .breadcrumb a {color: #333;}
+
+.thumbnail {display: block;}
+.thumbnail img {width: 100%;}
+.thumbnail:hover {opacity: 0.8;}
+
+.home-link-bar {margin-top: 10px;}
+
+input, textarea {border: 0; padding: 4px;}
+
+@media (max-width: 767px) {
+body {padding: 4px;}
+}

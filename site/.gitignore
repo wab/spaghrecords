@@ -1,0 +1,31 @@
+# Application
+htdocs/app/plugins/*
+!htdocs/app/plugins/.gitkeep
+htdocs/app/mu-plugins/*/
+htdocs/app/upgrade
+htdocs/app/uploads/*
+!htdocs/app/uploads/.gitkeep
+
+# WordPress
+htdocs/wp
+htdocs/.htaccess
+
+# WP-CLI
+db-sync
+sql-dump-*.sql
+
+# Dotenv
+.env
+.env.*
+!.env.example
+
+# Vendor (e.g. Composer)
+vendor/*
+!vendor/.gitkeep
+
+# Node Package Manager
+node_modules
+
+# Vagrant
+bin
+.vagrant
